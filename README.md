@@ -1,2 +1,2 @@
 # LibGuides-Customizations
-This repositiory contains customizations to LibGuides CMS for the <a href="http://libguides.georgetowncollege.edu/LRC" target="_blank">library's webiste</a> at Georgetown College.  
+This repositiory contains customizations to LibGuides CMS for the <a href="http://libguides.georgetowncollege.edu/LRC" target="_blank">library's webiste</a> at Georgetown College.  It features the code for three customized templates (homepageTemplate, noSideNavTemplate, and sideNavTemplate), the header and footer code, and the css file used to create the library's website.
