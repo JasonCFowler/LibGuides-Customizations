@@ -1,0 +1,271 @@
+body {
+padding: 0;
+width: 100%
+}
+body {
+background-image: url('https://s3.amazonaws.com/libapps/accounts/4983/images/extra_clean_paper.png');
+background-repeat: repeat;
+background-position: top left;
+background-attachment: scroll;
+}
+.row {
+margin-left: 0px;
+margin-right: auto;
+}
+#LRCheader {
+background-color: #f47920;
+width: 100%;
+background-size: cover;
+min-height: 120px;
+margin: 0px;
+}
+#logoHeader {
+padding: 33px 0px 0px 0px;
+min-height: 120px;
+}
+img.logo {
+padding-left: 10px;
+width: 95%;
+max-width: 400px;
+}
+#oneSearch {
+padding-top: 40px;
+min-height: 120px;
+}
+.homepage #oneSearch {
+display: none;
+}
+.navbar {
+border-radius:  0px;
+margin-bottom: 0px;
+}
+.navbar-lrc {
+background-color: #1a1a1a;
+border-top: 1px solid #fff;
+font-weight: bold;
+}
+.navbar-lrc .navbar-nav>li>a {
+color: #fff;
+font-size: 16px;
+}
+.navbar-lrc .navbar-nav > li > a:hover {
+    background-color: #f47920;
+}
+.navbar-lrc .navbar-nav > li.open > a {
+color: #fff;
+background-color: #f47920;
+}
+.navbar-toggle {
+background-color: transparent;
+border: 1px solid #fff; 
+color: #fff;
+}
+
+.dropdown:hover .dropdown-menu {
+display: block;
+}
+.lrcHours {
+color: #fff;
+margin-top: 5px;
+}
+.btn-hours {
+border: none;
+background-color: #1a1a1a;
+padding-top: 0px;
+}
+.navbar-lrc .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+#lrc_background {
+background: url('https://s3.amazonaws.com/libapps/customers/1597/images/books.png') no-repeat center top;
+background-size: cover;
+height: 300px;
+width: 100%;
+position: absolute;
+z-index: -1;
+}
+.s-lg-guide-label {
+color: #fff;
+}
+.s-lg-no-val, .s-lg-text-greyout, .s-lib-greyout {
+color: #fff;
+}
+.lrcContainer, .lrcContainerGuide {
+background-color: #fff;
+border-radius: 5px;
+position: relative;
+z-index: 1;
+margin-top: 100px;
+}
+#s-lg-guide-header-info h1 {
+display: none;
+}
+.lrcContainerGuide{
+margin-bottom: 20px;
+}
+
+/*Search Box CSS*/
+
+#lrcSearchBox {
+margin: 0 auto;
+margin-bottom: 5px;
+padding: 20px 20px 35px 20px;
+border-radius: 4px;
+background-color: #1a1a1a;
+}
+.lrcInputs, .col3Links {
+padding-bottom: 5px;
+}
+.lrcSearchButton {
+padding-left: 25px;
+padding-right: 30px;
+}
+.searchboxLinks {
+margin-top: 10px;
+font-weight: bold;
+}
+a.searchboxLinks  {
+color: #fff;
+text-decoration: none;
+}
+.sbIcon {
+padding-right: 5px;
+}
+/*------------------------------End Search Box CSS------------------------------------------*/
+
+.btn-lrc, .subpageBox {
+color: #fff;
+background-color: #a33f1f;
+}
+/*------------------------------Homepage Boxes CSS---------------------------------------*/
+.homepageBox1, .homepageBox2, .homepageBox3, .homepageBox4, .subpageBox {
+text-align: center;
+color: #fff;
+font-weight: bold;
+}
+.homepageBox1 {
+background-color: #60351D;
+}
+.homepageBox2 {
+background-color: #DC9B32;
+}
+.homepageBox3 {
+background-color: #00759A;
+}
+.homepageBox4 {
+background-color: #650360; 
+}
+/*------------------------------End Homepage Boxes CSS---------------------------------------*/
+.carousel, .sideNav {
+margin: 20px;
+}
+.hpHeading, .resourceHighlight {
+margin-top: 20px;
+border-bottom: 2px solid #ccc;
+}
+.hpItem {
+font-weight: bold;
+}
+a.list-group-item {
+color: #337ab7;
+}
+.glyphicon {
+padding-right: 5px;
+}
+table td[class*=col-loc]{
+display: none; 
+}
+.hours-col-time, .weekHours {
+font-weight: bold;
+font-size: 12px;
+}
+.hours-library {
+color: #f47920;
+}
+.circ, .ebooks {
+font-weight: bold;
+color: #f47920;
+text-shadow: 0px 1px #ddd;
+}
+footer {
+width: 100%;
+background-color: #1a1a1a;
+color: #fff;
+padding: 35px 25px;
+border-top: 1px solid #fff;
+}
+.LRCfooter {
+padding-bottom: 25px;
+}
+footer .panel-title {
+margin-bottom: 8px;
+}
+.socialIcons {
+padding-right:7px;
+}
+.GClogo {
+max-width: 275px;
+}
+.subPageNav {
+list-style: none;
+font-size: 14px;
+font-weight: bold;
+}
+ .subPageNav li {
+border-bottom: 1px solid #ddd;
+padding-top: 6px;
+}
+.subPageNav li:last-child {
+border-bottom: 1px solid #fff;
+}
+.subPageNav a {
+text-decoration: none;
+}
+.list-group .active {
+list-style-image: url('https://s3.amazonaws.com/libapps/accounts/4983/images/Arrowhead-Right.png');
+list-style-position: inside;
+color: #f47920;
+}
+.panel-default > .subPagePanelHeading {
+background-color: #f47920;
+color: #fff;
+}
+#s-lg-guide-name {
+font-weight: bold;
+color: #f47920;
+text-shadow: 1px 1px  #b3b3b3;
+}
+
+/*Subpage subnav*/
+#s-lg-tabs-container .nav-pills > li > a, #s-lg-tabs-container .nav-pills > li > a:hover {
+    background-color: #fff; 
+    font-weight: bold;
+}
+#s-lg-tabs-container .nav-pills > li > a {
+   color: #337ab7; 
+}
+#s-lg-tabs-container .nav-pills > li > a:hover {
+   color: #555; 
+}
+ #s-lg-tabs-container .nav-pills > .active > a,  #s-lg-tabs-container .nav-pills > .active > a:hover {
+    color: #337ab7; 
+    background-color: #fff; 
+    color: #f47920;
+    /*text-shadow: 1px 1px  #b3b3b3;*/
+    background-image: url('https://s3.amazonaws.com/libapps/accounts/4983/images/Arrowhead-Right.png');
+    background-repeat: no-repeat;
+    background-position: center left;
+    padding-left: 25px;
+    border-radius: none;
+    border-bottom: none;
+    /*border-bottom-color: transparent;*/
+    font-weight: bold;
+}
+.pageNav {
+margin-top: 20px;
+}
+.navbar-page>.navbar-toggle {
+    background-color: #449d44;
+    border: 1px solid #4cae4c;
+    color: #fff;
+}

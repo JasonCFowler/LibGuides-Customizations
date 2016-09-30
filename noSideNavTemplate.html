@@ -1,0 +1,105 @@
+<!-- NO SIDE NAV -->
+	<body class="s-lg-guide-body">
+		<!--{{skip_link}}-->
+        {{ADMIN_CMD_BAR}}
+        <!-- BEGIN: Page Header -->
+        {{public_header}}
+        <!-- END: Page Header -->
+        <div id="lrc_background"></div>  
+        <!-- BEGIN: Guide Header -->
+  		<div id="s-lg-guide-header" class="container s-lib-header s-lib-side-borders">
+           <!-- <div id="s-lib-bc">
+                {{breadcrumbs}}
+            </div>-->
+			<div class="pull-right">
+				<!--<div id="s-lg-guide-header-search">
+					{{guide_search}}				</div>-->
+				{{ADMIN_MINI_CMD_BAR}}
+			</div>
+           <div id="s-lg-guide-header-info">
+                <h1 id="s-lg-guide-name">{{guide_title}}</h1>
+                <div id="s-lg-guide-desc-container">
+                    <span id="s-lg-guide-description">{{guide_description}}</span>
+                </div>
+            </div>
+        </div>
+        <!-- END: Guide Header -->
+        <div id="s-lg-guide-tabs-title-bar" class="container s-lib-side-borders"></div>
+        <div id="s-lg-side-nav-content" class="container s-lib-side-borders pad-top-med lrcContainerGuide">
+            <div class="row">
+                <div class="col-md-9">
+                    <div class="s-lg-tab-content">
+                    <h3 id="s-lg-guide-name">{{page_title}}</h3>
+                            <hr>
+                            {{content}}
+                    </div>
+                    <!--{{page_prev_next_links}}-->
+                </div>
+            
+                <div class="col-md-3">
+                        <!-------------------------------------Need Help Box------------------------------->
+                  <div class="panel panel-default">
+                   	<div class="panel-heading">
+    					<h3 class="panel-title">Need Help? Ask Us!</h3>
+  					</div>
+  					<div class="panel-body">
+   					 <h4><i class="fa fa-comment"></i> Chat with a Librarian</h4>
+                     <!-------------------------------Chat with a Librarian Modal--------------------------->
+					 <!-- Button trigger modal -->
+					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#chatModal">Chat with Us!</button>
+
+					<!-- Modal -->
+					<div class="modal fade" id="chatModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+ 						 <div class="modal-dialog" role="document">
+    						<div class="modal-content">
+     						 	<div class="modal-header">
+       						 		<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        							<h4 class="modal-title" id="chatModalLabel">Chat with Us!</h4>
+     						 	</div>
+      							<div class="modal-body">
+               						<div id="libchat_52de0a4c97618b003e50abaf26b129fe"></div>
+              						<script src="//v2.libanswers.com/load_chat.php?hash=52de0a4c97618b003e50abaf26b129fe"></script>
+      							</div>
+     						    <div class="modal-footer">
+        							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      							</div>
+   							 </div>
+  						</div>
+					</div>
+					<!---------------------------------End Chat Modal----------------------------------------->
+                    <hr>
+						<h4><i class="fa fa-mobile-phone"></i> Text Us</h4>
+						<p>Text <strong><a href="sms:5027994094">(502) 799-4094</a></strong> to get live help on your mobile phone (available during reference hours 11:00am-8:00pm M-Th)</p>
+					<hr>
+                    	<h4><i class="fa fa-search"></i> Consultations</h4>
+						<p><strong><a href="http://georgetowncollege.libcal.com/appointments/" target="_blank">Set up an individual research consultation</a></strong> with a member of our research team.</p>
+					<hr>
+                    <h4><i class="fa fa-phone"></i> Call Us</h4>
+					<p>Research Desk: <strong><a href="tel:5028638401">(502) 863-8401</a></strong><br> 
+					Circulation Desk: <strong><a href="tel:5028638400">(502) 863-8400</a></strong> </p>
+                                        <hr>
+                   <h4><i class="fa fa-envelope"></i> Email Us</h4>
+					<p><strong><a href="http://libanswers.georgetowncollege.edu/ask" target="_blank">Email our Research Team</a></strong> with your question.</p>
+  					</div>
+				 </div>
+<!-------------------------------------End Need Help Box------------------------------->
+                </div>
+               
+            </div>
+        </div>
+        <!-- BEGIN: Page Footer -->
+        <p align="center"><i class="fa fa-sign-in"></i> <a href="https://georgetowncollege.libapps.com">  {{login_url_display}}  </a></p>
+        <!-- END: Page Footer -->
+        
+			<div id="s-lib-scroll-top" title="Back to Top">
+				<span class="fa-stack fa-lg">
+				  <i class="fa fa-square-o fa-stack-2x"></i>
+				  <i class="fa fa-angle-double-up fa-stack-1x" style="position:relative; bottom:2px;"></i>
+				</span>
+			</div>        <div id="s-lib-alert" title="">
+                            <div id="s-lib-alert-content"></div>
+                       </div>        
+                <!-- BEGIN: Custom Footer -->
+                {{public_footer}}
+		<!-- END: Custom Footer -->
+	</body>
